@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LegalLink - Decentralized Legal Services</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to LegalLink</h1>
+        <p>Decentralized Legal Services Platform</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/create_contract">Create Legal Contract</a></li>
+            <!-- Add more navigation items as needed -->
+        </ul>
+    </nav>
+    <main>
+        <section id="home">
+            <h2>Get Legal Services Online</h2>
+            <p>Connect with legal professionals, create legal contracts, and manage your legal processes securely.</p>
+        </section>
+        <section id="create-contract" class="hidden">
+            <h2>Create a Legal Contract</h2>
+            <form id="contract-form">
+                <div>
+                    <label for="contract-title">Contract Title:</label>
+                    <input type="text" id="contract-title" name="contract-title" required>
+                </div>
+                <div>
+                    <label for="contract-description">Contract Description:</label>
+                    <textarea id="contract-description" name="contract-description" required></textarea>
+                </div>
+                <!-- Add more input fields for contract details -->
+                <div>
+                    <button type="submit">Create Contract</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 LegalLink. All rights reserved.</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>

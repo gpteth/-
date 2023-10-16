@@ -1,0 +1,10 @@
+[package]
+name = "fanfiesta-solana"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+solana-program = "1.9"
+solana-sdk = "1.9"
+solana-sdk-bpf = "1.9"
+borsh = "0.8"

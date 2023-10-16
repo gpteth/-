@@ -1,0 +1,14 @@
+<div>
+  <h1>Create Audit</h1>
+  <form [formGroup]="auditForm" (ngSubmit)="onSubmit()">
+    <div>
+      <label for="name">Name:</label>
+      <input type="text" id="name" formControlName="name">
+    </div>
+    <div>
+      <label for="status">Status:</label>
+      <input type="text" id="status" formControlName="status">
+    </div>
+    <button type="submit">Create</button>
+  </form>
+</div>

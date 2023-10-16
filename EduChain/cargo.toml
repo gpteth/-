@@ -1,0 +1,12 @@
+[package]
+name = "educhain"
+version = "0.1.0"
+edition = "2023"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+ink_lang = "3.0.0"
+ink_storage = "3.0.0"
+ink_prelude = "3.0.0"
